@@ -106,7 +106,7 @@ String getHTTPPort(String branchName) {
     if (branchName == 'main') {
         return '9999'
     }
-    return (branchName == 'ready' || branchName.startsWith("release-") || branchName.startsWith("hotfix-")) ? 
+    return (branchName == 'ready' || branchName.startsWith("release-") || branchName.startsWith("hotfix-")) ?
 }
 
 String getTag(String buildNumber, String branchName) {
