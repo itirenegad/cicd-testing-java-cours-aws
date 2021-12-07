@@ -104,7 +104,7 @@ String getEnvName(String branchName) {
 
 String getHTTPPort(String branchName) {
     if (branchName == 'main') {
-        return '9999'
+        return 'ready'
     }
     return (branchName == 'ready' || branchName.startsWith("release-") || branchName.startsWith("hotfix-")) ?
 }
